@@ -1,0 +1,16 @@
+{
+  "name": "workout",
+  "version": "0.0.1",
+  "description": "",
+  "main": "wod.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": "",
+  "author": "Victor Powell <vicapow@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "inflection": "~1.2.5"
+  }
+}
