@@ -1,6 +1,6 @@
 
 var _ = require('underscore')
-  , taskParsers = require('./tasks')
+  , task_parser = require('./tasks')
   , rm_match = require('./utils').rm_match
 
 module.exports = function(desc){
@@ -13,19 +13,16 @@ module.exports = function(desc){
     // remove empty whitespace padding
     lines = _.map(lines, function(line){ return line.match(/^(?:\s*)(.*?)(?:\s*)$/)[1] })
     part = lines.join('\n')
-    // console.log('lines')
-    // _.chain(lines).each(function(line){
-    //   console.log('line: ' + line)
-    // })
     
     var res = wod_settings(part)
     var settings = res.settings
     part = res.part
     
-    res = tabata(part, settings)
-      || amrap(part, settings)
+    res = tabata(part, settings)          // 20 seconds on, 10 seconds off of...
       || rounds(part, settings)
-      || reps(part, settings)
+      || amrap(part, settings)            // as many rounds as possible for 10 minutes of...
+      || reps_for_time(part, settings)    // 20-15-10 of: backsquat, double unders, etc...
+      || rounds_for_reps(part, settings)  // 3 rounds for reps of deadlift, 1 minute, etc..
       || rounds('1 round for time of\n' + part, settings)
       || { 
         type : 'unknown'
@@ -61,18 +58,21 @@ function wod_settings(part){
     }
     part = rm_match(part, m)
   }
-  console.log('---------wearing---------')
-  console.log(part)
-  m = part.match(/wear(?:ing)*\s*a*\s*(\d+)*\s*(?:pound|lb)*\s*(?:weighted)*\s*vest/i)
-  console.log(m)
+  m = part.match(/(?:if)*\s*(?:you\'ve|you\s*have)*\s*(?:got)*\s*(?:wear)*(?:ing)*\s*a*\s*([a-z0-9]+)*\s*(?:pound|lb)*\s*(?:weighted)*\s*vest\s*(?:or)*\s*(?:body)*\s*(?:armor)*\s*\,*\s(?:wear)*\s*(?:it)*\s*\.*/i)
   if(m){
     settings.wear = []
     var vest = { type : 'vest' }
     if(m[1]){
-      vest.weight = Number(m[1])
+      vest.weight = to_num(m[1])
       vest.units = 'pounds'
     }
     settings.wear.push(vest)
+    part = rm_match(part, m)
+  }
+  m = part.match(/begin\s*the\s*rope\s*climbs*\s*seated\s*on\s*the\s*floor\s*\.*/i)
+  if(m){
+    if(!settings.rope_climb) settings.rope_climb = {}
+    settings.rope_climb.from_floor = true
     part = rm_match(part, m)
   }
   return {
@@ -81,14 +81,26 @@ function wod_settings(part){
   }
 }
 
+function rounds_for_reps(part, settings){
+  var m = part.match(/^\s*([a-z0-9]+)\s*rounds*\s*for\s*reps\s*(?:of)*\s*\:*\s*/im);
+  if(!m) return
+  var rounds = to_num(m[1])
+  part = rm_match(part, m)
+  var tasks = part.split(/(?:\n+)/)
+  return {
+    type : "rounds for reps"
+    , rounds : rounds
+    , tasks : parseTasks(tasks, 'max', settings)
+  }
+}
 
-function reps(part, settings){
-  var regexp = /^\s*((?:\d+)(?:-\d+)*)\s*reps*\s*(?:for)*\s*(time|form)*\s*(?:of)*\:*\s*/im
-  var m = part.match(regexp)
+function reps_for_time(part, settings){
+  var m = part.match(/^\s*((?:\d+)(?:-\d+)*)\s*(?:and\s*(\d+))*\s*reps*\s*(?:for)*\s*(time|form)*\s*(?:rounds)*\s*(?:of)*\s*\:*\s*/im)
   if(!m) return
   var reps = _.map(m[1].split('-'), Number)
-  var reps_for =m[2] ? m[2].toLowerCase() : 'time'
-  var tasks = rm_match(part,m)
+  if(m[2]) reps.push(Number(m[2]))
+  var reps_for = m[3] ? m[3].toLowerCase() : 'time'
+  var tasks = rm_match(part, m)
   tasks = tasks.split(/(?:\n+)/)
   for(var i = 0; i < tasks.length; i++){
     var task = tasks[i]
@@ -117,6 +129,8 @@ function to_num(str){
 function rounds(tasks, settings){
   // matches variations of "N Rounds for time"
   if(tasks.match(/^[^\n]*reps*/i)) return
+  if(tasks.match(/^[^\n]*as\s*many\s*rounds*/i)) return
+  if(tasks.match(/^[^\n]*max\s*rounds*/i)) return
   var m = tasks.match(/\s*(?:each)*\s*for\s*(time|form)\s*(?:of)*\s*\:*/i)
   var rounds_for, rounds, is = false
   if(m){
@@ -149,35 +163,22 @@ function parseTasks(tasks, reps, settings){
     , task = null
     , ret_tasks = []
   
-  for(var i = 0; i < tasks.length;i++){
-    task = tasks[i]
-    if(!_.some(taskParsers, function(parser, key){ 
-      var ret = parser(task, reps, settings) 
-      if(ret){
-        task = ret
-        return true
-      }
-    })){
-      task = {
-        type : 'unknown'
-        , desc : task
-      }
-    }
-    ret_tasks.push(task)
-  }
-  return ret_tasks
+  return _.map(tasks,function(task){
+    return task_parser(task, reps, settings)
+  })
 }
 
 function amrap(part, settings){
   var m = part.match(/^\s*(\d+)\s*(?:min|minutes|minute)?\s*AMRAP\s*:?\s*/i)
-  var task, minutes
+  var task, minutes, repeat, between_rounds = []
   if(m){
     minutes = Number(m[1])
     tasks = rm_match(part,m)
   }else{
     m = part.match(/^\s*complete*\s*as\s*many\s*rounds\s*(?:as)*\s*(?:possible)*\s*(?:in)*/i)
+    if(!m) m = part.match(/^[^\n]*max\s*rounds*/i)
     if(!m) return
-    part = rm_match(part,m)
+    part = rm_match(part, m)
     m = part.match(/\s*(?:in)*([a-z0-9]+)\s*(min|minutes|minute)(.*)/i)
     if(!m) return
     minutes = to_num(m[1])
@@ -185,12 +186,27 @@ function amrap(part, settings){
   }
   m = tasks.match(/^([^\n]+)/i)
   if(m) tasks = rm_match(tasks,m)
-  return {
+  
+  m = tasks.match(/(rest\s*(\d+)\s*minutes*)*\s*\.*\s*repeat\s*([^\n]+)\s*(\d+)\s*(times|cycles)/i)
+  if(m){
+    repeat = Number(m[4])
+    if(m[1]) between_rounds.push({
+      type : 'rest'
+      , duration : Number(m[2])
+      , units : 'minutes'
+    })
+    rm_match(tasks, m)
+  }
+  
+  var part_obj = {
     type : 'amrap'
     , duration : minutes
     , units : 'minutes'
     , tasks : parseTasks(tasks, null, settings)
   }
+  if(repeat) part_obj.repeat = repeat
+  if(between_rounds.length) part_obj.between_rounds = between_rounds
+  return part_obj
 }
 
 function tabata(part){
@@ -201,10 +217,6 @@ function tabata(part){
     , off = 10
     , duration = null
   
-  //console.log('matches')
-  //console.log(matches)
-  //console.log('parts: ')
-  //console.log(part)
   //process.exit()
   
   if(matches){

@@ -89,7 +89,7 @@
     "type": "rounds for time",
     "rounds": 1,
     "tasks": [{
-      "type": "turkish get-up",
+      "type": "turkish get up",
       "reps": 21,
       "arm": "right",
       "weight": 2,
@@ -122,7 +122,7 @@
       "weight": 2,
       "units": "pood"
     }, {
-      "type": "turkish get-up",
+      "type": "turkish get up",
       "reps": 21,
       "arm": "left",
       "weight": 2,
@@ -138,7 +138,7 @@
       "weight": 95,
       "units": "pounds"
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 30
     }, {
       "type": "run",
@@ -170,7 +170,7 @@
       "weight": 20,
       "units": "pounds"
     }, {
-      "type": "handstand push-up",
+      "type": "handstand push up",
       "reps": 10
     }]
   }],
@@ -182,7 +182,7 @@
       "distance": 100,
       "units": "meters"
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 10
     }, {
       "type": "run",
@@ -201,7 +201,7 @@
     "type": "rounds for time",
     "rounds": 10,
     "tasks": [{
-      "type": "handstand push-up",
+      "type": "handstand push up",
       "reps": 3
     }, {
       "type": "deadlift",
@@ -209,10 +209,10 @@
       "weight": 225,
       "units": "pounds"
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 12
     }, {
-      "type": "double-under",
+      "type": "double under",
       "reps": 24
     }]
   }],
@@ -224,10 +224,10 @@
       "distance": 100,
       "units": "feet"
     }, {
-      "type": "standing broad-jump",
+      "type": "standing broad jump",
       "distance": 100,
       "units": "feet",
-      "note": "do 3 burpees after every five broad-jumps."
+      "note": "do 3 burpees after every five broad jumps."
     }, {
 
     }],
@@ -260,7 +260,7 @@
       "distance": 150,
       "units": "meters"
     }, {
-      "type": "chest to bar pull-up",
+      "type": "chest to bar pull up",
       "reps": 7
     }, {
       "type": "front squat",
@@ -268,7 +268,7 @@
       "weight": 135,
       "units": "pounds"
     }, {
-      "type": "handstand push-up",
+      "type": "handstand push up",
       "reps": 7
     }]
   }],
@@ -276,7 +276,7 @@
     "type": "rounds for time",
     "rounds": 2,
     "tasks": [{
-      "type": "double-under",
+      "type": "double under",
       "reps": 200
     }, {
       "type": "overhead squat",
@@ -284,7 +284,7 @@
       "weight": 135,
       "units": "pounds"
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 50
     }, {
       "type": "run",
@@ -304,7 +304,7 @@
       "weight": 95,
       "units": "pounds"
     }, {
-      "type": "double-under"
+      "type": "double under"
     }, {
       "type": "deadlift",
       "weight": 185,
@@ -325,7 +325,7 @@
       "reps": 10
     }, {
       "reps": 10,
-      "type": "ring push-up"
+      "type": "ring push up"
     }]
   }],
   "collin": [{
@@ -352,7 +352,7 @@
       "units": "inches",
       "reps": 12
     }, {
-      "type": "sumo deadlift high-pull",
+      "type": "sumo deadlift high pull",
       "weight": 95,
       "units": "pounds",
       "reps": 12
@@ -387,7 +387,7 @@
     "type": "rounds for time",
     "rounds": 1,
     "tasks": [{
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 50
     }, {
       "type": "run",
@@ -412,7 +412,7 @@
       "distance": 400,
       "units": "meters"
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 50
     }]
   }],
@@ -431,7 +431,7 @@
       "units": "pounds",
       "reps": 20
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 30
     }]
   }],
@@ -452,7 +452,7 @@
         "units": "pounds"
       }
     }, {
-      "type": "weighted pull-up",
+      "type": "weighted pull up",
       "weight": 20,
       "units": "pounds",
       "reps": 25
@@ -467,7 +467,7 @@
         "units": "pounds"
       }
     }, {
-      "type": "handstand push-up",
+      "type": "handstand push up",
       "reps": 25
     }, {
       "type": "run with medicine ball",
@@ -481,7 +481,7 @@
       }
     }, {
       "reps": 25,
-      "type": "chest-to-bar pull-up"
+      "type": "chest to bar pull up"
     }, {
       "type": "run with medicine ball",
       "distance": {
@@ -508,7 +508,7 @@
       "type": "back extension",
       "reps": 50
     }, {
-      "type": "sit-up",
+      "type": "sit up",
       "reps": 50
     }]
   }],
@@ -520,10 +520,10 @@
       "distance": 1,
       "units": "miles"
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 100
     }, {
-      "type": "push-up",
+      "type": "push up",
       "reps": 200
     }, {
       "type": "squat",
@@ -540,9 +540,9 @@
     "units": "minutes",
     "tasks": [{
       "reps": 2,
-      "type": "muscle-up"
+      "type": "muscle up"
     }, {
-      "type": "handstand push-up",
+      "type": "handstand push up",
       "reps": 4
     }, {
       "type": "kettlebell swing",
@@ -560,27 +560,27 @@
       "reps": 10
     }, {
       "reps": 6,
-      "type": "handstand push-up on dumbbell"
+      "type": "handstand push up on dumbbell"
     }]
   }],
   "nutts": [{
     "type": "rounds for time",
     "rounds": 1,
     "tasks": [{
-      "type": "handstand push-up",
+      "type": "handstand push up",
       "reps": 10
     }, {
-      "type": "deadlift",
       "weight": 250,
       "units": "pounds",
-      "reps": 15
+      "reps": 15,
+      "type": "deadlift"
     }, {
       "type": "box jump",
       "height": 30,
       "units": "inches",
       "reps": 25
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 50
     }, {
       "type": "wallball shot",
@@ -594,27 +594,39 @@
         "units": "feet"
       }
     }, {
-      "type": "double-under",
+      "type": "double under",
       "reps": 200
     }, {
-      "type": "run",
-      "distance": 400,
-      "units": "meters"
+      "type": "run with plate",
+      "distance": {
+        "value": 400,
+        "units": "meters"
+      },
+      "weight": {
+        "value": 45,
+        "units": "pounds"
+      }
     }]
   }],
   "paul": [{
     "type": "rounds for time",
     "rounds": 5,
     "tasks": [{
-      "type": "double-under",
+      "type": "double under",
       "reps": 50
     }, {
       "reps": 35,
       "type": "knees to elbow"
     }, {
-      "type": "overhead walk",
-      "weight": 185,
-      "units": "pounds"
+      "distance": {
+        "value": 20,
+        "units": "yards"
+      },
+      "weight": {
+        "value": 185,
+        "units": "pounds"
+      },
+      "type": "overhead walk"
     }]
   }],
   "pheezy": [{
@@ -626,7 +638,7 @@
       "units": "pounds",
       "reps": 5
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 18
     }, {
       "type": "deadlift",
@@ -643,7 +655,7 @@
       "reps": 5
     }, {
       "reps": 18,
-      "type": "hand release push-up"
+      "type": "hand release push up"
     }]
   }],
   "rahoi": [{
@@ -653,12 +665,13 @@
     "tasks": [{
       "type": "box jump",
       "height": 24,
+      "reps": 12,
       "units": "inches"
     }, {
-      "type": "thruster",
       "weight": 95,
-      "units": "pounds",
-      "reps": 6
+      "reps": 6,
+      "type": "thruster",
+      "units": "pounds"
     }, {
       "reps": 6,
       "type": "bar facing burpee"
@@ -707,7 +720,7 @@
       "reps": 6
     }, {
       "reps": 7,
-      "type": "burpee pull-up"
+      "type": "burpee pull up"
     }, {
       "type": "kettlebell swing",
       "reps": 10,
@@ -728,7 +741,7 @@
       "units": "miles"
     }, {
       "reps": 150,
-      "type": "burpee pull-up"
+      "type": "burpee pull up"
     }],
     "notes": ["Partition the run and burpee pull-ups as needed."]
   }],
@@ -741,7 +754,7 @@
       "units": "pounds",
       "reps": 12
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 20
     }, {
       "type": "clean and jerk",
@@ -782,7 +795,7 @@
       "units": "pounds",
       "reps": 15
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 21
     }]
   }],
@@ -791,7 +804,7 @@
     "rounds": 3,
     "tasks": [{
       "reps": 20,
-      "type": "l-pull-up"
+      "type": "l pull up"
     }, {
       "reps": 30,
       "type": "toes to bar"
@@ -812,10 +825,10 @@
       "type": "squat"
     }, {
       "reps": 25,
-      "type": "ring handstand push-up"
+      "type": "ring handstand push up"
     }, {
       "reps": 25,
-      "type": "l-pull-up"
+      "type": "l pull up"
     }]
   }],
   "gator": [{
@@ -828,7 +841,7 @@
       "reps": 5
     }, {
       "reps": 26,
-      "type": "ring push-up"
+      "type": "ring push up"
     }]
   }],
   "glen": [{
@@ -865,7 +878,8 @@
       "distance": 800,
       "units": "meters"
     }, {
-      "type": "run backward",
+      "type": "run",
+      "direction": "backward",
       "distance": 400,
       "units": "meters"
     }, {
@@ -873,7 +887,8 @@
       "distance": 800,
       "units": "meters"
     }, {
-      "type": "run backward",
+      "type": "run",
+      "direction": "backward",
       "distance": 400,
       "units": "meters"
     }]
@@ -897,7 +912,7 @@
       "units": "pounds",
       "reps": 5
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 20
     }, {
       "type": "rest",
@@ -917,7 +932,7 @@
       "type": "burpee"
     }, {
       "reps": 30,
-      "type": "glute-ham sit-up"
+      "type": "glute ham sit up"
     }]
   }],
   "helton": [{
@@ -949,18 +964,18 @@
       "duration": 2,
       "units": "minutes"
     }, {
-      "type": "squat clean",
       "weight": 135,
       "units": "pounds",
-      "reps": 20
+      "reps": 20,
+      "type": "squat clean"
     }, {
       "type": "box jump",
       "height": 24,
       "units": "inches",
       "reps": 20
     }, {
-      "reps": 20,
       "type": "walking lunge",
+      "reps": 20,
       "weight": 45,
       "units": "pounds"
     }, {
@@ -969,10 +984,10 @@
       "units": "inches",
       "reps": 20
     }, {
-      "type": "squat clean",
       "weight": 135,
       "units": "pounds",
-      "reps": 20
+      "reps": 20,
+      "type": "squat clean"
     }, {
       "type": "rest",
       "duration": 2,
@@ -981,9 +996,11 @@
       "type": "run",
       "distance": 2,
       "units": "miles"
-    }, {
-      "type": "unknown",
-      "desc": "If you've got a twenty pound vest or body armor, wear it."
+    }],
+    "wear": [{
+      "type": "vest",
+      "weight": 20,
+      "units": "pounds"
     }]
   }],
   "holbrook": [{
@@ -995,7 +1012,7 @@
       "units": "pounds",
       "reps": 5
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 10
     }, {
       "type": "run",
@@ -1016,7 +1033,7 @@
       "weight": 20,
       "units": "pounds"
     }, {
-      "type": "handstand push-up",
+      "type": "handstand push up",
       "reps": 3
     }, {
       "type": "power clean",
@@ -1035,7 +1052,7 @@
       "reps": 1
     }, {
       "reps": 10,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
 
       "type": "squat clean",
@@ -1044,7 +1061,7 @@
       "reps": 2
     }, {
       "reps": 9,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1052,7 +1069,7 @@
       "reps": 3
     }, {
       "reps": 8,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1060,7 +1077,7 @@
       "reps": 4
     }, {
       "reps": 7,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1068,7 +1085,7 @@
       "reps": 5
     }, {
       "reps": 6,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1076,7 +1093,7 @@
       "reps": 6
     }, {
       "reps": 5,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1084,7 +1101,7 @@
       "reps": 7
     }, {
       "reps": 4,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1092,7 +1109,7 @@
       "reps": 8
     }, {
       "reps": 3,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1100,7 +1117,7 @@
       "reps": 9
     }, {
       "reps": 2,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "type": "squat clean",
       "weight": 185,
@@ -1108,7 +1125,7 @@
       "reps": 10
     }, {
       "reps": 1,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }]
   }],
   "jack": [{
@@ -1146,7 +1163,7 @@
       "units": "pood"
     }, {
       "reps": 28,
-      "type": "strict pull-up"
+      "type": "strict pull up"
     }, {
       "reps": 28,
       "type": "kettlebell clean and jerk",
@@ -1154,7 +1171,7 @@
       "units": "pood"
     }, {
       "reps": 28,
-      "type": "strict pull-up"
+      "type": "strict pull up"
     }, {
       "type": "run",
       "distance": 800,
@@ -1169,11 +1186,11 @@
       "distance": 800,
       "units": "meters"
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 40
     }, {
       "reps": 70,
-      "type": "push-up"
+      "type": "push up"
     }]
   }],
   "jason": [{
@@ -1184,25 +1201,25 @@
       "type": "squat"
     }, {
       "reps": 5,
-      "type": "muscle-up"
+      "type": "muscle up"
     }, {
       "reps": 75,
       "type": "squat"
     }, {
       "reps": 10,
-      "type": "muscle-up"
+      "type": "muscle up"
     }, {
       "reps": 50,
       "type": "squat"
     }, {
       "reps": 15,
-      "type": "muscle-up"
+      "type": "muscle up"
     }, {
       "reps": 25,
       "type": "squat"
     }, {
       "reps": 20,
-      "type": "muscle-up"
+      "type": "muscle up"
     }]
   }],
   "jerry": [{
@@ -1233,7 +1250,7 @@
       "reps": 9
     }, {
       "reps": 8,
-      "type": "muscle-up"
+      "type": "muscle up"
     }, {
       "type": "squat clean",
       "weight": 155,
@@ -1250,7 +1267,7 @@
       "units": "pounds",
       "reps": 21
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 42
     }, {
       "type": "overhead squat",
@@ -1258,7 +1275,7 @@
       "units": "pounds",
       "reps": 15
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 30
     }, {
       "type": "overhead squat",
@@ -1266,7 +1283,7 @@
       "units": "pounds",
       "reps": 9
     }, {
-      "type": "pull-up",
+      "type": "pull up",
       "reps": 18
     }]
   }],
@@ -1281,7 +1298,7 @@
       "arm": "right"
     }, {
       "reps": 21,
-      "type": "l-pull-up"
+      "type": "l pull up"
     }, {
       "type": "dumbbell snatch",
       "weight": 40,
@@ -1290,17 +1307,17 @@
       "arm": "left"
     }, {
       "reps": 21,
-      "type": "l-pull-up"
+      "type": "l pull up"
     }]
   }],
   "jt": [{
     "type": "reps for time",
     "tasks": [{
-      "type": "handstand push-up"
+      "type": "handstand push up"
     }, {
       "type": "ring dip"
     }, {
-      "type": "push-up"
+      "type": "push up"
     }],
     "reps": [21, 15, 9]
   }],
@@ -1328,12 +1345,12 @@
     "units": "minutes",
     "tasks": [{
       "reps": 5,
-      "type": "parallette handstand push-up"
+      "type": "parallette handstand push up"
     }, {
       "reps": 10,
       "type": "toes through ring"
     }, {
-      "type": "medicine ball cleans",
+      "type": "medicine ball clean",
       "weight": 20,
       "units": "pounds",
       "reps": 15
@@ -1347,7 +1364,7 @@
       "type": "squat"
     }, {
       "reps": 24,
-      "type": "push-up"
+      "type": "push up"
     }, {
       "type": "walking lunge",
       "reps": 24
@@ -1366,7 +1383,7 @@
       "units": "kilometers"
     }, {
       "reps": 10,
-      "type": "muscle-up"
+      "type": "muscle up"
     }, {
       "reps": 100,
       "type": "squat"
@@ -1375,6 +1392,812 @@
       "type": "vest",
       "weight": 20,
       "units": "pounds"
+    }]
+  }],
+  "lumberjack20": [{
+    "type": "rounds for time",
+    "rounds": 1,
+    "tasks": [{
+      "weight": 275,
+      "units": "pounds",
+      "reps": 20,
+      "type": "deadlift"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "type": "kettlebell swing",
+      "reps": 20,
+      "weight": 2,
+      "units": "pood"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "weight": 115,
+      "units": "pounds",
+      "reps": 20,
+      "type": "overhead squat"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "reps": 20,
+      "type": "burpee"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "type": "pull up",
+      "reps": 20
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "type": "box jump",
+      "height": 24,
+      "units": "inches",
+      "reps": 20
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "weight": 45,
+      "units": "pounds",
+      "reps": 20,
+      "type": "db squat clean"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }]
+  }],
+  "manion": [{
+    "type": "rounds for time",
+    "rounds": 7,
+    "tasks": [{
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "weight": 135,
+      "units": "pounds",
+      "reps": 29,
+      "type": "back squat"
+    }]
+  }],
+  "mccluskey": [{
+    "type": "rounds for time",
+    "rounds": 3,
+    "tasks": [{
+      "reps": 9,
+      "type": "muscle up"
+    }, {
+      "reps": 15,
+      "type": "burpee pull up"
+    }, {
+      "type": "pull up",
+      "reps": 21
+    }, {
+      "type": "run",
+      "distance": 800,
+      "units": "meters"
+    }],
+    "wear": [{
+      "type": "vest",
+      "weight": 20,
+      "units": "pounds"
+    }]
+  }],
+  "mcghee": [{
+    "type": "amrap",
+    "duration": 30,
+    "units": "minutes",
+    "tasks": [{
+      "weight": 275,
+      "units": "pounds",
+      "reps": 5,
+      "type": "deadlift"
+    }, {
+      "reps": 13,
+      "type": "push up"
+    }, {
+      "type": "box jump",
+      "height": 24,
+      "units": "inches",
+      "reps": 9
+    }]
+  }],
+  "meadows": [{
+    "type": "rounds for time",
+    "rounds": 1,
+    "tasks": [{
+      "reps": 20,
+      "type": "muscle up"
+    }, {
+      "type": "ring lower",
+      "reps": 25
+    }, {
+      "reps": 30,
+      "type": "ring handstand push up"
+    }, {
+      "reps": 35,
+      "type": "ring row"
+    }, {
+      "reps": 40,
+      "type": "ring push up"
+    }]
+  }],
+  "moon": [{
+    "type": "rounds for time",
+    "rounds": 7,
+    "tasks": [{
+      "weight": 40,
+      "units": "pounds",
+      "reps": 10,
+      "arm": "right",
+      "type": "dumbbell hang split snatch"
+    }, {
+      "type": "rope climb",
+      "reps": 1,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "weight": 40,
+      "units": "pounds",
+      "reps": 10,
+      "arm": "left",
+      "type": "dumbbell hang split snatch"
+    }, {
+      "type": "rope climb",
+      "reps": 1,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "type": "unknown",
+      "desc": "Alternate feet in the split snatch sets."
+    }]
+  }],
+  "moore": [{
+    "type": "amrap",
+    "duration": 20,
+    "units": "minutes",
+    "tasks": [{
+      "type": "rope climb",
+      "reps": 1,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "reps": "max",
+      "type": "handstand push up"
+    }]
+  }],
+  "morrison": [{
+    "type": "reps for time",
+    "tasks": [{
+      "type": "wallball shot",
+      "weight": 20,
+      "units": "pounds"
+    }, {
+      "type": "box jump",
+      "height": 24,
+      "units": "inches"
+    }, {
+      "type": "kettlebell swing",
+      "weight": 1.5,
+      "units": "pood"
+    }],
+    "reps": [50, 40, 30, 20, 10]
+  }],
+  "mrjoshua": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "reps": 30,
+      "type": "glute ham sit up"
+    }, {
+      "weight": 250,
+      "units": "pounds",
+      "reps": 15,
+      "type": "deadlift"
+    }]
+  }],
+  "ricky": [{
+    "type": "amrap",
+    "duration": 20,
+    "units": "minutes",
+    "tasks": [{
+      "type": "pull up",
+      "reps": 10
+    }, {
+      "type": "dumbbell deadlift",
+      "reps": 5,
+      "weight": 75,
+      "units": "pounds"
+    }, {
+      "type": "push press",
+      "reps": 8,
+      "weight": 135,
+      "units": "pounds"
+    }]
+  }],
+  "rj": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "type": "run",
+      "distance": 800,
+      "units": "meters"
+    }, {
+      "type": "rope climb",
+      "reps": 5,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "reps": 50,
+      "type": "push up"
+    }]
+  }],
+  "roy": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "type": "deadlift",
+      "reps": 15,
+      "weight": 225,
+      "units": "pounds"
+    }, {
+      "type": "box jump",
+      "height": 24,
+      "reps": 20,
+      "units": "inches"
+    }, {
+      "type": "pull up",
+      "reps": 25
+    }]
+  }],
+  "ryan": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "reps": 7,
+      "type": "muscle up"
+    }, {
+      "reps": 21,
+      "type": "burpee"
+    }]
+  }],
+  "santiago": [{
+    "type": "rounds for time",
+    "rounds": 7,
+    "tasks": [{
+      "weight": 35,
+      "reps": 18,
+      "type": "dumbbell hang squat clean",
+      "units": "pounds"
+    }, {
+      "type": "pull up",
+      "reps": 18
+    }, {
+      "type": "power clean",
+      "reps": 10,
+      "weight": 135,
+      "units": "pounds"
+    }, {
+      "reps": 10,
+      "type": "handstand push up"
+    }]
+  }],
+  "santora": [{
+    "type": "rounds for reps",
+    "rounds": 3,
+    "tasks": [{
+      "weight": {
+        "value": 155,
+        "units": "pounds"
+      },
+      "type": "squat clean",
+      "duration": {
+        "value": 1,
+        "units": "minutes"
+      }
+    }, {
+      "type": "shuttle run",
+      "direction": "forward and backward",
+      "distance": {
+        "value": 20,
+        "units": "feet"
+      },
+      "duration": {
+        "value": 1,
+        "units": "minutes"
+      }
+    }, {
+      "type": "deadlift",
+      "weight": {
+        "value": 245,
+        "units": "pounds"
+      },
+      "duration": {
+        "value": 1,
+        "units": "minutes"
+      }
+    }, {
+      "type": "burpee",
+      "duration": 1,
+      "units": "minutes"
+    }, {
+      "weight": {
+        "value": 155,
+        "units": "pounds"
+      },
+      "type": "jerk",
+      "duration": {
+        "value": 1,
+        "units": "minutes"
+      }
+    }, {
+      "type": "rest",
+      "duration": 1,
+      "units": "minutes"
+    }]
+  }],
+  "sean": [{
+    "type": "rounds for time",
+    "rounds": 10,
+    "tasks": [{
+      "reps": 11,
+      "type": "chest to bar pull up"
+    }, {
+      "type": "front squat",
+      "reps": 22,
+      "weight": 75,
+      "units": "pounds"
+    }]
+  }],
+  "severin": [{
+    "type": "rounds for time",
+    "rounds": 1,
+    "tasks": [{
+      "reps": 50,
+      "type": "strict pull up"
+    }, {
+      "type": "hand release push up",
+      "reps": 100
+    }, {
+      "type": "run",
+      "distance": 5,
+      "units": "kilometers"
+    }],
+    "wear": [{
+      "type": "vest",
+      "weight": 20,
+      "units": "pounds"
+    }]
+  }],
+  "ship": [{
+    "type": "rounds for time",
+    "rounds": 9,
+    "tasks": [{
+      "weight": 185,
+      "reps": 7,
+      "type": "squat clean",
+      "units": "pounds"
+    }, {
+      "type": "burpee box jump",
+      "height": 36,
+      "units": "inches"
+    }]
+  }],
+  "small": [{
+    "type": "rounds for time",
+    "rounds": 3,
+    "tasks": [{
+      "type": "row",
+      "distance": 1000,
+      "units": "meters"
+    }, {
+      "reps": 50,
+      "type": "burpee"
+    }, {
+      "type": "box jump",
+      "height": 24,
+      "reps": 50,
+      "units": "inches"
+    }, {
+      "type": "run",
+      "distance": 800,
+      "units": "meters"
+    }]
+  }],
+  "stephen": [{
+    "type": "reps for time",
+    "tasks": [{
+      "type": "ghd sit up"
+    }, {
+      "type": "back extension"
+    }, {
+      "type": "knees to elbow"
+    }, {
+      "type": "stiff leg deadlift",
+      "weight": 95,
+      "units": "pounds"
+    }],
+    "reps": [30, 25, 20, 15, 10, 5]
+  }],
+  "strange": [{
+    "type": "rounds for time",
+    "rounds": 8,
+    "tasks": [{
+      "type": "run",
+      "distance": 600,
+      "units": "meters"
+    }, {
+      "weight": 1.5,
+      "reps": 11,
+      "type": "weighted pull up",
+      "units": "pood"
+    }, {
+      "type": "walking lunge",
+      "reps": 11,
+      "weight": 1.5,
+      "units": "pood"
+    }, {
+      "weight": 1.5,
+      "reps": 11,
+      "type": "kettlebell thruster",
+      "units": "pood"
+    }]
+  }],
+  "thechief": [{
+    "type": "amrap",
+    "duration": 3,
+    "units": "minutes",
+    "tasks": [{
+      "type": "power clean",
+      "reps": 3,
+      "weight": 135,
+      "units": "pounds"
+    }, {
+      "type": "push up",
+      "reps": 6
+    }, {
+      "reps": 9,
+      "type": "squat"
+    }, {
+      "type": "rest",
+      "duration": 1,
+      "units": "minutes"
+    }],
+    "repeat": 5,
+    "between_rounds": [{
+      "type": "rest",
+      "duration": 1,
+      "units": "minutes"
+    }]
+  }],
+  "theseven": [{
+    "type": "rounds for time",
+    "rounds": 7,
+    "tasks": [{
+      "reps": 7,
+      "type": "handstand push up"
+    }, {
+      "weight": 135,
+      "reps": 7,
+      "type": "thruster",
+      "units": "pounds"
+    }, {
+      "reps": 7,
+      "type": "knees to elbow"
+    }, {
+      "type": "deadlift",
+      "reps": 7,
+      "weight": 245,
+      "units": "pounds"
+    }, {
+      "reps": 7,
+      "type": "burpee"
+    }, {
+      "type": "kettlebell swing",
+      "reps": 7,
+      "weight": 2,
+      "units": "pood"
+    }, {
+      "type": "pull up",
+      "reps": 7
+    }]
+  }],
+  "thompson": [{
+    "type": "rounds for time",
+    "rounds": 10,
+    "tasks": [{
+      "type": "rope climb from floor",
+      "reps": 1,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "type": "back squat",
+      "reps": 29,
+      "weight": 95,
+      "units": "pounds"
+    }, {
+      "distance": {
+        "value": 10,
+        "units": "meters"
+      },
+      "weight": {
+        "value": 135,
+        "units": "pounds"
+      },
+      "type": "barbell farmer carry"
+    }]
+  }],
+  "tom": [{
+    "type": "amrap",
+    "duration": 25,
+    "units": "minutes",
+    "tasks": [{
+      "reps": 7,
+      "type": "muscle up"
+    }, {
+      "weight": 155,
+      "reps": 11,
+      "type": "thruster",
+      "units": "pounds"
+    }, {
+      "reps": 14,
+      "type": "toes to bar"
+    }]
+  }],
+  "tommyv": [{
+    "type": "rounds for time",
+    "rounds": 1,
+    "tasks": [{
+      "weight": 115,
+      "reps": 21,
+      "type": "thruster",
+      "units": "pounds"
+    }, {
+      "type": "rope climb",
+      "reps": 12,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "weight": 115,
+      "reps": 15,
+      "type": "thruster",
+      "units": "pounds"
+    }, {
+      "type": "rope climb",
+      "reps": 9,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "weight": 115,
+      "reps": 9,
+      "type": "thruster",
+      "units": "pounds"
+    }, {
+      "type": "rope climb",
+      "reps": 6,
+      "height": 15,
+      "units": "feet"
+    }]
+  }],
+  "tully": [{
+    "type": "rounds for time",
+    "rounds": 4,
+    "tasks": [{
+      "distance": 200,
+      "type": "swim",
+      "units": "meters"
+    }, {
+      "weight": 40,
+      "reps": 23,
+      "type": "dumbbell squat clean",
+      "units": "pounds"
+    }]
+  }],
+  "tumilson": [{
+    "type": "rounds for time",
+    "rounds": 8,
+    "tasks": [{
+      "type": "run",
+      "distance": 200,
+      "units": "meters"
+    }, {
+      "type": "dumbbell burpee deadlift",
+      "reps": 11,
+      "weight": 60,
+      "units": "pounds"
+    }]
+  }],
+  "tyler": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "reps": 7,
+      "type": "muscle up"
+    }, {
+      "type": "sumo deadlift high pull",
+      "reps": 21,
+      "weight": 95,
+      "units": "pounds"
+    }]
+  }],
+  "warfrank": [{
+    "type": "rounds for time",
+    "rounds": 3,
+    "tasks": [{
+      "reps": 25,
+      "type": "muscle up"
+    }, {
+      "reps": 100,
+      "type": "squat"
+    }, {
+      "reps": 35,
+      "type": "ghd sit up"
+    }]
+  }],
+  "weaver": [{
+    "type": "rounds for time",
+    "rounds": 4,
+    "tasks": [{
+      "reps": 10,
+      "type": "l pull up"
+    }, {
+      "type": "push up",
+      "reps": 15
+    }, {
+      "reps": 15,
+      "type": "chest to bar pull up"
+    }, {
+      "type": "push up",
+      "reps": 15
+    }, {
+      "type": "pull up",
+      "reps": 20
+    }, {
+      "type": "push up",
+      "reps": 15
+    }]
+  }],
+  "white": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "type": "rope climb",
+      "reps": 3,
+      "height": 15,
+      "units": "feet"
+    }, {
+      "reps": 10,
+      "type": "toes to bar"
+    }, {
+      "type": "walking lunge",
+      "reps": 21,
+      "weight": 45,
+      "units": "pounds"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }]
+  }],
+  "whitten": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "type": "kettlebell swing",
+      "reps": 22,
+      "weight": 2,
+      "units": "pood"
+    }, {
+      "type": "box jump",
+      "height": 24,
+      "reps": 22,
+      "units": "inches"
+    }, {
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "reps": 22,
+      "type": "burpee"
+    }, {
+      "type": "wallball shot",
+      "reps": 22,
+      "weight": 20,
+      "units": "pounds"
+    }]
+  }],
+  "wilmot": [{
+    "type": "rounds for time",
+    "rounds": 6,
+    "tasks": [{
+      "reps": 50,
+      "type": "squat"
+    }, {
+      "reps": 25,
+      "type": "ring dip"
+    }]
+  }],
+  "wittman": [{
+    "type": "rounds for time",
+    "rounds": 7,
+    "tasks": [{
+      "type": "kettlebell swing",
+      "weight": 1.5,
+      "units": "pood"
+    }, {
+      "type": "power clean",
+      "reps": 15,
+      "weight": 95,
+      "units": "pounds"
+    }, {
+      "type": "box jump",
+      "height": 24,
+      "reps": 15,
+      "units": "inches"
+    }]
+  }],
+  "wood": [{
+    "type": "rounds for time",
+    "rounds": 5,
+    "tasks": [{
+      "type": "run",
+      "distance": 400,
+      "units": "meters"
+    }, {
+      "type": "burpee box jump",
+      "height": 24,
+      "units": "inches"
+    }, {
+      "type": "sumo deadlift high pull",
+      "reps": 10,
+      "weight": 95,
+      "units": "pounds"
+    }, {
+      "weight": 95,
+      "reps": 10,
+      "type": "thruster",
+      "units": "pounds"
+    }, {
+      "type": "rest",
+      "duration": 1,
+      "units": "minutes"
+    }]
+  }],
+  "zimmerman": [{
+    "type": "amrap",
+    "duration": 25,
+    "units": "minutes",
+    "tasks": [{
+      "reps": 11,
+      "type": "chest to bar pull up"
+    }, {
+      "type": "deadlift",
+      "reps": 2,
+      "weight": 315,
+      "units": "pounds"
+    }, {
+      "reps": 10,
+      "type": "handstand push up"
     }]
   }]
 }

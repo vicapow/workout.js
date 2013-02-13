@@ -11,6 +11,7 @@
   "license": "BSD",
   "dependencies": {
     "underscore": "~1.4.4",
-    "inflection": "~1.2.5"
+    "inflection": "~1.2.5",
+    "should": "~1.2.1"
   }
 }
