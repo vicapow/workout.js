@@ -1,5 +1,7 @@
 # A standard format and parser for crossfit workouts
 
+(NOTE: still a work in progress but it so far works with all the hero wods.)
+
 Here's an example of the crossfit workout [Abbate](http://www.crossfit.com/mt-archive2/007523.html) from Crossfit.com:
 
     Run 1 mile
