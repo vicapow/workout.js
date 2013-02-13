@@ -1,4 +1,4 @@
-# A standard format for workout data
+# A standard format and parser for crossfit workouts
 
 Here's an example of the crossfit workout [Abbate](http://www.crossfit.com/mt-archive2/007523.html):
 
